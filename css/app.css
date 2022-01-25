@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+.board-container{
+display: inline-block;
+}
+
+.modal {
+  width: 400px;
+  height: 200px;
+  background-color: black;
+  float: right;
+  margin-right: 200px;
+  margin-top: 100px ;
+  border: 10px solid rgb(226, 118, 46);
+  text-align: center;
+  display: none;
+}
+
+.modal h1{
+  font-size: 50px;
+}
+
+.modal button{
+  width: 120px;
+  height: 40px;
+  background-color: rgb(248, 185, 160);
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+.modal button:hover{
+  cursor: pointer;
+  background-color: rgb(247, 198, 179);
+
+  /* .formLine {
+    margin:10px;
+    padding:10px;
+    background-color: cornflowerblue;
+  } */
+}
